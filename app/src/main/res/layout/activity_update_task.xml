@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/white"
-    tools:context=".UpdateTaskActivity">
+    android:background="@color/black"
+    tools:context=".UpdateTaskActivity"
+    >
 
     <TextView
         android:id="@+id/editTaskHeading"
@@ -16,7 +17,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="@string/edit_task"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="24sp" />
 
     <ImageView
@@ -36,9 +37,10 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/aqua_border"
         android:hint="@string/enter_the_task"
+        android:textColorHint="@color/white"
         android:maxLines="1"
         android:padding="12dp"
-        android:textColor="#041888"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <EditText
@@ -50,8 +52,9 @@
         android:background="@drawable/aqua_border"
         android:gravity="top"
         android:hint="@string/enter_the_description"
+        android:textColorHint="@color/white"
         android:padding="12dp"
-        android:textColor="#041888"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
 </RelativeLayout>
